@@ -1,3 +1,7 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,92 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header{
+    background :#8F43EE;
+    margin: 0;
+    padding: 5px;
+    position: relative;
+    
+   
+}
+
+.page{
+  /* background: ; */
+  margin: 0;
+
+
+}
+
+.nav-content{
+  align-content: end ;
+  align-content: space-between;
+  padding: 3px;
+}
+
+.r-menu{
+  display: flex;
+  
+}
+
+.home{
+  background-color: #F0EB8D;
+  shape-margin: 2px;
+  box-shadow: inset;
+  margin: 17px;
+  padding: 50px;
+  border-radius: 12px;
+  align-items: flex-start;
+  transition-duration: 3s;
+}
+.nav-item{
+  display: flex;
+  justify-content: end;
+}
+.homeimg{
+  width: 400px;
+  height: 400px;
+  justify-content: end;
+  display: flex;
+}
+.home-text{
+  animation: forwards;
+  animation-duration: 3s;
+  justify-content: center;
+  
+}
+.intro{
+ transition-duration: 5s;
+animation: forwards;
+animation-duration: 5s;
+animation-delay: 2s;
+ color: #130102;
+ 
+}
+.about-me{
+  background: #413543;
+  display: block;
+  justify-content: center;
+}
+
+.who-button{
+  transform-origin: center;
+  transition-duration: 5s;
+  align-items: center;
+}
+
+.projects{
+  background-color: #8F43EE;
+  border-radius: 5px;
+  /* display:flex;
+  justify-content: space-between  center; */
+  padding: 10px;
+  margin: 0;
+}
+.project-row{
+  /* display: flex; */
+  justify-content: center;
+  padding: 12px;
+  margin:10%;
 }
